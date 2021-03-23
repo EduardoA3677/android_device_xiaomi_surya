@@ -391,6 +391,23 @@ vendor/lib64/camera/fdconfigvideolite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b71
 # Camera service - from surya
 lib/libcameraservice.so|87730c6b9e63ab8fe1928db1096034d9e133232a
 
+# Camera (provider)
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
+
 # CDSP - from LA.UM.9.1.r1-10200-SMxxx0.0
 vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
