@@ -25,13 +25,16 @@ $(call inherit-product, vendor/oplauncher/OPLauncher.mk)
 $(call inherit-product, vendor/GoogleCamera/GoogleCamera.mk)
 
 # Inherit from common Evolution X configuration
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
+OCTAVI_BUILD_TYPE := Unofficial
+OCTAVI_DEVICE_MAINTAINER := EduardoA3677
+
 # Device identifier
-PRODUCT_NAME := evolution_surya
+PRODUCT_NAME := octavi_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
